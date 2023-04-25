@@ -15,6 +15,10 @@
 
 * After applying an oversampling algorithm to the data and getting equal counts on the 1's and 0's, we ran the same Logistic Regression algorithm over the data and the resultant confusion matrix showed slightly better false results as well as increased accuracy at identifying high-risk applicants.
 
+## Summary
 
+It is my recommendation that the Logistic Regression classifer be used that has been refit and resampled to bring the data distribution to equal and provide a more accurate regression model. 
+
+After refitting the data, the model was much better at predicting if applicants would be high-risk, which is what we set out to determine. If we get a new applicant and apply their parameters to the model that was fit against the resampled data now, we would be able to more accurately assess whether or not they would be a good applicant for a loan. 
 
 
